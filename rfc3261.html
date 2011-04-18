@@ -1,0 +1,15 @@
+<html>
+	<head>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$.ajax({url:"http://www.ietf.org/rfc/rfc3261.txt", success:function(result){
+				$("div").html(result);
+				}});
+			});
+		</script>
+</head>
+<body>
+	<div id="rfc">RFC HERE</div>
+</body>
+</html>
