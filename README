@@ -1,0 +1,20 @@
+= Online RFC Documents reader =
+
+== TODO: ==
+  * comments
+  * Android client
+  *
+
+== Arch: ==
+Comment Modeling
+
+use coordernates(x,y) to represents a point in document, x for column, y for line
+
+{{{
+(x1,y1), (x2,y2), type, content, date, author
+
+type is content type
+
+}}}
+
+The comments with be send to client as extra data, and the client use JavaScript to parse them and decorate the origin RFC
